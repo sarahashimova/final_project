@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.enter-from-left {
+  position: absolute;
+  padding: 20px;
+  left: -1500px; /* Off-screen initially */
+  top: 200px;
+  background: opacify($color: #3939393b, $amount: 0.1);
+  backdrop-filter: blur(3px);
+  color: #fff;
+  transform: translateY(-50%);
+  transform: translateX(20%);
+  border-radius: 20px;
+  transition: left 4s ease; /* Define the animation duration and easing */
+}
+
+.animate {
+  left: 20px; /* Adjust this value to change the final position */
+}
+.paragraph_animated {
+    font-size: 17px;
+}

@@ -1,0 +1,33 @@
+.nav_div {
+  padding: 20px 50px;
+  background-color: transparent;
+  position: fixed;
+  width: calc(100% - 100px);
+  z-index: 100;
+}
+.nav_div .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(57, 57, 57, 0.331372549);
+  backdrop-filter: blur(10px);
+}
+.nav_div .nav .logo {
+  color: white;
+  padding: 0 20px;
+}
+.nav_div .nav .nav_bar a {
+  text-decoration: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.nav_div .nav .search {
+  color: white;
+  padding: 0 20px;
+}
+.nav_div .nav .search .icon_search {
+  font-size: 27px;
+}/*# sourceMappingURL=Nav.css.map */
